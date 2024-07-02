@@ -1,2 +1,2 @@
 # McGirrCNC
-CNC code rename and sort file
+This Python script renames and organizes CNC code files. It extracts titles from the second line of each file, cleans them, and appends them to filenames. The script then scans a base directory for subdirectories with numerical ranges, determines the appropriate directory for each file based on its prefix, and moves the files accordingly, ensuring they are correctly sorted by machine and range.
